@@ -1,7 +1,7 @@
 syntax = "proto3";
-option go_package = "./ecommerce";
 
 package ecommerce;
+option go_package = "./ecommerce";
 
 service ProductInfo {
     rpc addProduct (Product) returns (ProductID);
@@ -9,7 +9,7 @@ service ProductInfo {
 }
 
 message Product {
-    string is = 1;
+    string id = 1;
     string name = 2;
     string description = 3;
     float price = 4;
