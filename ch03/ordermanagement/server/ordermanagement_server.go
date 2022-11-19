@@ -4,7 +4,7 @@ import (
 	"context"
 
 	pb "github.com/coldbeverage/gRPC/ch03/ordermanagement/server/ecommerce"
-	"google.golang.org/grpc/wrappers"
+	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 )
 
 type server struct {

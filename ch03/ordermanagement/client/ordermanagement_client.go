@@ -7,7 +7,7 @@ import (
 
 	pb "github.com/coldbeverage/gRPC/ch03/ordermanagement/client/ecommerce"
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/wrappers"
+	wrappers "google.golang.org/protobuf/types/known/wrapperspb"
 )
 
 const (
